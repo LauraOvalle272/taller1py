@@ -1,0 +1,6 @@
+cantProduc=int(input("Ingrese la cantidad de productos"))
+total=(10000*cantProduc)
+print("El valor a pagar es",total)
+valorPagar=int(input("Ingrese el valor con el que paga"))
+totalPagar=(valorPagar-total)
+print("el cambio a entregar es",totalPagar)
